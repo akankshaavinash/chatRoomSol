@@ -12,7 +12,8 @@ import {
 import { ethers } from "ethers";
 import { abi } from "./abi";
 
-const CONTRACT_ADDRESS = "0xd9145CCE52D386f254917e481eB44e9943F39138";
+const CONTRACT_ADDRESS = "0xb597C23E35463878720293FC4d937078C62D64f5"//"0xd9145CCE52D386f254917e481eB44e9943F39138";
+
 
 function App() {
   const [friends, setFriends] = useState(null);
@@ -178,7 +179,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -191,7 +192,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
       <Container style={{ padding: "0px", border: "1px solid grey" }}>
       {/* This shows the navbar with connect button */}
       <NavBar
